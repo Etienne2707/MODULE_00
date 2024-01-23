@@ -20,6 +20,8 @@ public:
 
     Cat & operator=(Cat const & rhs);
     void    makeSound(void)const;
+    Brain* setBrain(void);
+
 };
 
 

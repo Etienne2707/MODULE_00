@@ -20,6 +20,7 @@ public:
 
     Dog & operator=(Dog const & rhs);
     void    makeSound(void) const;
+    Brain* setBrain(void);
 };
 
 
